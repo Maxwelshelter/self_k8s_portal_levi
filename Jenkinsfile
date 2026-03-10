@@ -11,7 +11,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'echo Running automation test'
+                sh 'echo Running automation test success'
             }
         }
 
