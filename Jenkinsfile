@@ -14,6 +14,11 @@ pipeline {
                 sh 'echo Running automation test success'
             }
         }
+        stage('Deploy'){
+            steps{
+                echo 'Deploy successfull'
+            }
+        }
 
     }
 }
